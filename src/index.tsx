@@ -1,10 +1,10 @@
 import { render } from "solid-js/web";
 import { HashRouter, Route } from "@solidjs/router";
+import App from "./App";
 import Home from "./pages/Home";
-import ASCIIPage from "./pages/ASCII";
+import ASCIIPage from "./pages/tools/ASCII";
 import "@fontsource-variable/quicksand";
 import "./globals.css";
-import App from "./App";
 
 const root = document.getElementById("root");
 

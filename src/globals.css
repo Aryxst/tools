@@ -21,10 +21,6 @@ body {
 h1 {
   text-align: center;
 }
-section {
-  width: 50%;
-  padding: 1em;
-}
 .link-img {
   max-width: 100%;
   cursor: pointer;
