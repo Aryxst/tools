@@ -1,5 +1,5 @@
 {
-  "name": "vite-template-solid",
+  "name": "aryxst-tools",
   "version": "0.0.0",
   "type": "module",
   "description": "",
@@ -7,7 +7,7 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "build:prod": "vite build --base=/ropasses/",
+    "build:prod": "vite build --base=/tools/",
     "serve": "vite preview"
   },
   "license": "MIT",
