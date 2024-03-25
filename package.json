@@ -2,7 +2,8 @@
   "name": "aryxst-tools",
   "version": "0.0.0",
   "type": "module",
-  "description": "",
+  "homepage": "https://aryxst.github.io/tools",
+  "description": "Some tools for Aryxst's web development",
   "scripts": {
     "start": "vite",
     "dev": "vite",
