@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 :root {
-  --text-subtitle: #bdbdbd;
+  --text-subtitle: #666460;
   --floral-white: #fffcf2ff;
   --timberwolf: #ccc5b9ff;
   --black-olive: #403d39ff;

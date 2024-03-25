@@ -9,7 +9,13 @@ export default function ToolCard({
 }) {
   return (
     <A href={href} aria-label={href} class="block">
-      <img src={thumbnail} alt={href} width={440} class="link-img" />
+      <img
+        src={thumbnail}
+        alt={href}
+        width={440}
+        height={84}
+        class="link-img"
+      />
     </A>
   );
 }

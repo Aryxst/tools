@@ -20,7 +20,6 @@ export default function ASCIIPage() {
           <div>
             <h3>Text:</h3>
             <textarea
-              value={text()}
               onInput={(e) => setText(e.currentTarget.value)}
               class="border border-black resize"
               placeholder="Enter text here..."
@@ -30,20 +29,17 @@ export default function ASCIIPage() {
         <OutputContainer>
           <div>
             <h3>ASCII Result:</h3>
-            <div class="flex flex-row flex-wrap gap-1 border border-black p-2 container">
-              <For each={encodedText()}>{(char) => <span>{char}</span>}</For>
+            <div class="border border-black p-2 container">
+              {encodedText().join(" ")}
             </div>
           </div>
           <div>
             <h3>Alphabetical Order Result:</h3>
-            <div class="flex flex-row flex-wrap gap-1 border border-black p-2 container">
-              <For each={text().split("")}>
-                {(char) => (
-                  <span title={char}>
-                    {alphabet.indexOf(char.toLowerCase()) + 1}
-                  </span>
-                )}
-              </For>
+            <div class="border border-black p-2 container">
+              {text()
+                .split("")
+                .map((char) => alphabet.indexOf(char.toLowerCase()) + 1)
+                .join(" ")}
             </div>
           </div>
         </OutputContainer>
