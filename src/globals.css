@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --text-subtitle: #bdbdbd;
+  --floral-white: #fffcf2ff;
+  --timberwolf: #ccc5b9ff;
+  --black-olive: #403d39ff;
+  --eerie-black: #252422ff;
+  --flame: #eb5e28ff;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand Variable", sans-serif;
+}
+h1 {
+  text-align: center;
+}
+section {
+  width: 50%;
+  padding: 1em;
+}
+.link-img {
+  max-width: 100%;
+  cursor: pointer;
+  border-radius: 1em;
+}
+.cards {
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1em;
+  max-width: 100%;
+  justify-content: center;
+}
+textarea {
+  max-width: 100%;
+  padding: 4px;
+}
