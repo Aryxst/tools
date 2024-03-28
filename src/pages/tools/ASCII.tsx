@@ -29,18 +29,18 @@ export default function ASCIIPage() {
         <OutputContainer>
           <div>
             <h3>ASCII Result:</h3>
-            <div class="border border-black p-2 container">
+            <p class="border border-black p-2 container">
               {encodedText().join(" ")}
-            </div>
+            </p>
           </div>
           <div>
             <h3>Alphabetical Order Result:</h3>
-            <div class="border border-black p-2 container">
+            <p class="border border-black p-2 container">
               {text()
                 .split("")
                 .map((char) => alphabet.indexOf(char.toLowerCase()) + 1)
                 .join(" ")}
-            </div>
+            </p>
           </div>
         </OutputContainer>
       </ToolContainer>
