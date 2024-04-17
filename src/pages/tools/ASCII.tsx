@@ -25,6 +25,7 @@ export default function ASCIIPage() {
               class="border border-black resize"
               placeholder="Enter text here..."
             ></textarea>
+            <p>Input Length: {text().length}</p>
           </div>
         </InputContainer>
         <OutputContainer>
